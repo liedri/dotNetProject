@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <GuestRequestKey>10000003</GuestRequestKey>
+  <HostUnitKey>10000005</HostUnitKey>
+  <OrderKey>10000002</OrderKey>
+  <CommissionAmount>10</CommissionAmount>
+  <NumOfExpireDays>14</NumOfExpireDays>
+  <AllCommissions>40</AllCommissions>
+  <EmailAddress>michalli@gmail.com</EmailAddress>
+  <EmailPassword>michalli05656133</EmailPassword>
+  <HostPassword>1002</HostPassword>
+  <ManagerPassword>1111</ManagerPassword>
+</config>

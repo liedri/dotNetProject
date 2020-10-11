@@ -1,0 +1,73 @@
+﻿<Window x:Class="PLWPF.HostingUnit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="HostingUnit" Height="700" Width="700">
+    <Window.Resources>
+        <Style x:Key="style"
+            TargetType="{x:Type Label}">
+            <Setter Property="FontSize"
+                Value="16"/>
+            <Setter Property="FontFamily"
+                Value="MV Boli"/>
+            <Setter Property="FontWeight"
+                Value="Normal"/>
+            <Setter Property="Height"
+                Value="30"/>
+            <Setter Property="Width"
+                Value="100"/>
+        </Style>
+    </Window.Resources>
+    <Grid Name="HostingUnitGrid">
+        <Label Content="HostingUnit Details:" HorizontalAlignment="Left" Margin="231,5,0,0" VerticalAlignment="Top" Height="53" FontFamily="MV Boli" Width="283" FontSize="24" FontWeight="Bold"/>
+        <!--<Button Content="Delete" HorizontalAlignment="Left" Margin="201,510,0,124.8" Width="115" Height="38" FontFamily="MV Boli" FontSize="20" Click="DeleteHostingUnit_Button_Click"/>-->
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="204,540,0,0" VerticalAlignment="Top" Width="115"  FontFamily="MV Boli" FontSize="20 " Height="38" Click="DeleteHostingUnit_Button_Click"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="32,542,0,0" VerticalAlignment="Top" Width="115"  FontFamily="MV Boli" FontSize="20 " Height="38" Click="UpdateHostingUnit_Button_Click_1"/>
+        <Label Content="Host Id:" HorizontalAlignment="Left" Margin="32,45,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Hosting Unit Key:" HorizontalAlignment="Left" Margin="32,79,0,0" VerticalAlignment="Top"  Style="{StaticResource style}" Width="169" Height="34"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="32,118,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Area:" HorizontalAlignment="Left" Margin="32,165,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Type:" HorizontalAlignment="Left" Margin="32,209,0,0" VerticalAlignment="Top"  Style="{StaticResource style}" Height="40"/>
+        <Label Content="beds:" HorizontalAlignment="Left" Margin="32,254,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Pool:" HorizontalAlignment="Left" Margin="20,295,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Jacuzzi:" HorizontalAlignment="Left" Margin="20,342,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Porch:" HorizontalAlignment="Left" Margin="20,391,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Food:" HorizontalAlignment="Left" Margin="20,435,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Children Attractions:" HorizontalAlignment="Left" Margin="20,480,0,0" VerticalAlignment="Top"  Style="{StaticResource style}" Width="181"/>
+        <TextBox x:Name="HostId"  HorizontalAlignment="Left" Height="23" Margin="206,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="HostingUnitKey"  HorizontalAlignment="Left" Height="23" Margin="206,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Name"  HorizontalAlignment="Left" Height="23" Margin="206,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Area"  HorizontalAlignment="Left" Height="23" Margin="206,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Type"  HorizontalAlignment="Left" Height="23" Margin="206,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Beds"  HorizontalAlignment="Left" Height="23" Margin="206,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Pool"  HorizontalAlignment="Left" Height="23" Margin="206,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Jacuzzi"  HorizontalAlignment="Left" Height="23" Margin="206,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Porch"  HorizontalAlignment="Left" Height="23" Margin="206,391,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Food"  HorizontalAlignment="Left" Height="23" Margin="206,442,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="ChildrenAttractions"  HorizontalAlignment="Left" Height="23" Margin="206,487,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+
+        <Button x:Name="UpdateOrder" Content="Update Order" HorizontalAlignment="Left" Margin="418,437,0,0" VerticalAlignment="Top" Width="227" FontFamily="MV Boli" FontSize="20" Height="47" IsEnabled="False" Click="UpdateOrder_Click" />
+
+        <ListView x:Name="OrderList" BorderBrush="LightBlue" Margin="405,69,34.2,270.8" SelectionChanged="OrderList_SelectionChanged"  >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="OrderKey" DisplayMemberBinding="{Binding OrderKey}"/>
+                    <GridViewColumn Header="GuesrtRequestKey" DisplayMemberBinding="{Binding GuestRequestKey}"/>
+                    <GridViewColumn Header="Status" DisplayMemberBinding="{Binding Status}"/>
+                </GridView>
+            </ListView.View>
+            <ListView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock FontWeight="Bold" FontSize="14" Text="{Binding Name}" FontFamily="MV Boli"/>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListView.GroupStyle>
+        </ListView>
+    </Grid>
+</Window>

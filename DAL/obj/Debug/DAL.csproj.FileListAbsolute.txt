@@ -1,0 +1,99 @@
+Z:\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.dll
+Z:\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.pdb
+Z:\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.dll
+Z:\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.pdb
+Z:\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+Z:\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Z:\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CopyComplete
+Z:\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.dll
+Z:\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.pdb
+Z:\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.dll
+Z:\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.dll
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.dll
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.dll
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.dll
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CopyComplete
+Z:\שנה ב סמסטר א\מיני פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.dll
+Z:\שנה ב סמסטר א\מיני פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.pdb
+Z:\שנה ב סמסטר א\מיני פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.dll
+Z:\שנה ב סמסטר א\מיני פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.dll
+Z:\שנה ב סמסטר א\מיני פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.pdb
+Z:\שנה ב סמסטר א\מיני פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.pdb
+Z:\שנה ב סמסטר א\מיני פרוייקט\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+Z:\שנה ב סמסטר א\מיני פרוייקט\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Z:\שנה ב סמסטר א\מיני פרוייקט\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CopyComplete
+Z:\שנה ב סמסטר א\מיני פרוייקט\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.dll
+Z:\שנה ב סמסטר א\מיני פרוייקט\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.pdb
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.dll
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.pdb
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.dll
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.pdb
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.dll
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.dll
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.pdb
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.pdb
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.dll
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.pdb
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.dll
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.dll
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.pdb
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.pdb
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.dll
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.pdb
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.dll
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.pdb
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.dll
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.dll
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.pdb
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.pdb
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CopyComplete
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.dll
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.pdb
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.dll
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.pdb
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.dll
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.dll
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.pdb
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.pdb
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CopyComplete
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.dll
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.pdb
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.dll
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.pdb
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.dll
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.dll
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.pdb
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.pdb
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.dll
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780 (1)\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.dll
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780 (1)\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DAL.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780 (1)\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.dll
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780 (1)\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.dll
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780 (1)\Project01_0565_6133_dotNet5780\DAL\bin\Debug\BE.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780 (1)\Project01_0565_6133_dotNet5780\DAL\bin\Debug\DS.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780 (1)\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780 (1)\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780 (1)\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780 (1)\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.dll
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780 (1)\Project01_0565_6133_dotNet5780\DAL\obj\Debug\DAL.pdb

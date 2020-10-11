@@ -1,0 +1,33 @@
+﻿<Window x:Class="PLWPF.HostsByNumOfHostingUnits"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="HostsByNumOfHostingUnits" Height="450" Width="800">
+    <Grid>
+        <ListView Name="HostsByNumOfHostingUnits_Grouping">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Key" DisplayMemberBinding="{Binding HostKey}"/>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding FirstName}"/>
+                    <GridViewColumn Header="Last Name" DisplayMemberBinding="{Binding LastName}"/>
+                    <GridViewColumn Header="PhoneNumber" DisplayMemberBinding="{Binding PhoneNumber}"/>
+                    <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}"/>
+                    <GridViewColumn Header="CollectionClearance" DisplayMemberBinding="{Binding CollectionClearance}"/>
+
+                </GridView>
+            </ListView.View>
+            <ListView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock FontWeight="Black" FontSize="14" FontFamily="MV Boli" Text="{Binding Name}"/>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListView.GroupStyle>
+        </ListView>
+    </Grid>
+</Window>

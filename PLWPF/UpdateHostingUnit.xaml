@@ -1,0 +1,62 @@
+﻿<Window x:Class="PLWPF.UpdateHostingUnit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="UpdateHostingUnit" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="style"
+               TargetType="Label">
+            <Setter Property="FontSize"
+                    Value="16"/>
+            <Setter Property="FontFamily"
+                Value="MV Boli"/>
+            <Setter Property="FontWeight"
+                    Value="Normal"/>
+            <Setter Property="Height"
+                    Value="30"/>
+            <Setter Property="Width"
+                    Value="100"/>
+        </Style>
+    </Window.Resources>
+    <Grid Name="UpdateHostingUnitGrid">
+        <Label Content="Update Hosting Unit:" HorizontalAlignment="Left" Margin="246,0,0,0" VerticalAlignment="Top" Height="53" FontFamily="MV Boli" Width="254" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Hosting Unit Key:" HorizontalAlignment="Left" Margin="229,50,0,0" VerticalAlignment="Top"  Style="{StaticResource style}" Width="147" FontWeight="Bold"/>
+        <TextBox x:Name="HostingUnitKey"  HorizontalAlignment="Left" Height="23" Margin="395,57,0,0" TextWrapping="Wrap" Text="{Binding HostingUnitKey}" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Host Id:" HorizontalAlignment="Left" Margin="37,105,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <TextBox x:Name="HostId"  HorizontalAlignment="Left" Height="23" Margin="206,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="37,154,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <TextBox x:Name="Name"  HorizontalAlignment="Left" Height="23" Margin="206,159,0,0" TextWrapping="Wrap" Text="{Binding HostingUnitName}" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Area:" HorizontalAlignment="Left" Margin="37,201,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <ComboBox x:Name="Area"  HorizontalAlignment="Left" Margin="206,209,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding Area}"/>
+        <Label Content="Type:" HorizontalAlignment="Left" Margin="37,245,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <ComboBox x:Name="Type"  HorizontalAlignment="Left" Margin="206,253,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding HostingUnitType}"/>
+        <Label Content="Pool:" HorizontalAlignment="Left" Margin="398,105,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <ComboBox x:Name="Pool"  HorizontalAlignment="Left" Margin="614,113,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="No"/>
+            <ComboBoxItem Content="Yes" />
+        </ComboBox>
+        <Label Content="Jacuzzi:" HorizontalAlignment="Left" Margin="398,152,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <ComboBox x:Name="Jacuzzi"  HorizontalAlignment="Left" Margin="614,160,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="No"/>
+            <ComboBoxItem Content="Yes" />
+        </ComboBox>
+        <Label Content="Porch:" HorizontalAlignment="Left" Margin="398,201,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <ComboBox x:Name="Porch"  HorizontalAlignment="Left" Margin="614,209,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="No"/>
+            <ComboBoxItem Content="Yes" />
+        </ComboBox>
+        <Label Content="Food:" HorizontalAlignment="Left" Margin="398,245,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <ComboBox x:Name="Food"  HorizontalAlignment="Left" Margin="614,253,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding Food}"/>
+        <Label Content="Children Attractions:" HorizontalAlignment="Left" Margin="398,290,0,0" VerticalAlignment="Top"  Style="{StaticResource style}" Width="181"/>
+        <ComboBox x:Name="ChildrenAttractions"  HorizontalAlignment="Left" Margin="614,298,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="No"/>
+            <ComboBoxItem Content="Yes" />
+        </ComboBox>
+        <Label Content="beds:" HorizontalAlignment="Left" Margin="37,290,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <TextBox x:Name="Beds" HorizontalAlignment="Left" Height="23" Margin="206,297,0,0" TextWrapping="Wrap" Text="{Binding Beds}" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="287,354,0,0" VerticalAlignment="Top" Width="178" FontFamily="MV Boli" FontSize="36" Height="55" Click="UpdateHostingUnit_Button_Click"/>
+    </Grid>
+</Window>

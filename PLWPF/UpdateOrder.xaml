@@ -1,0 +1,70 @@
+﻿<Window x:Class="PLWPF.UpdateOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="UpdateOrder" Height="600
+        " Width="800">
+    <Window.Resources>
+        <Style x:Key="style"
+               TargetType="Label">
+            <Setter Property="FontSize"
+                    Value="16"/>
+            <Setter Property="FontFamily"
+                Value="MV Boli"/>
+            <Setter Property="FontWeight"
+                    Value="Normal"/>
+            <Setter Property="Height"
+                    Value="30"/>
+            <Setter Property="Width"
+                    Value="100"/>
+        </Style>
+    </Window.Resources>
+    <Grid Name="UpdateOrderGrid">
+        <Label Content="Update Order:" HorizontalAlignment="Left" Margin="297,10,0,0" VerticalAlignment="Top" Height="53" FontFamily="MV Boli" Width="194" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Order Key:" HorizontalAlignment="Left" Margin="216,53,0,0" VerticalAlignment="Top" Style="{StaticResource style}" Height="51" Width="152" FontSize="24"/>
+        <TextBox x:Name="OrderKey" HorizontalAlignment="Left" Height="23" Margin="385,68,0,0" TextWrapping="Wrap" Text="{Binding OrderKey}" VerticalAlignment="Top" Width="120" FontWeight="Bold" IsEnabled="False"/>
+
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="23" Margin="194,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="73,186,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="100" FontSize="16"/>
+        <TextBox x:Name="LastName" HorizontalAlignment="Left" Height="23" Margin="194,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Last Name:" HorizontalAlignment="Left" Margin="73,221,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="100" FontSize="16"/>
+        <TextBox x:Name="Email"  HorizontalAlignment="Left" Height="23" Margin="194,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="73,262,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="100" FontSize="16"/>
+        <Label Content="Entry Date:" HorizontalAlignment="Left" Margin="73,306,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="100" FontSize="16"/>
+        <DatePicker x:Name="EntryDate" HorizontalAlignment="Left" Margin="194,312,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Release Date:" HorizontalAlignment="Left" Margin="73,347,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="118" FontSize="16"/>
+        <DatePicker x:Name="ReleaseDate"  HorizontalAlignment="Left" Margin="194,353,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Area:" HorizontalAlignment="Left" Margin="73,382,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="100" FontSize="16"/>
+        <TextBox x:Name="Area"  HorizontalAlignment="Left" Height="23" Margin="194,393,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Type:" HorizontalAlignment="Left" Margin="73,422,0,0" VerticalAlignment="Top" Height="39" FontFamily="MV Boli" Width="100" FontSize="16"/>
+        <TextBox x:Name="Type"  HorizontalAlignment="Left" Height="23" Margin="194,431,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="NumOfAdults" HorizontalAlignment="Left" Height="23" Margin="583,189,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Num Of Adults:" HorizontalAlignment="Left" Margin="405,186,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="132" FontSize="16"/>
+        <TextBox x:Name="NumOfKids" HorizontalAlignment="Left" Height="23" Margin="583,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Num Of Kids:" HorizontalAlignment="Left" Margin="405,221,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="120" FontSize="16"/>
+        <Label Content="Pool:" HorizontalAlignment="Left" Margin="405,264,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="100" FontSize="16"/>
+        <Label Content="Porch:" HorizontalAlignment="Left" Margin="405,347,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="100" FontSize="16"/>
+        <Label Content="Jacuzzi:" HorizontalAlignment="Left" Margin="405,306,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="100" FontSize="16"/>
+        <Label Content="Children Attractions:" HorizontalAlignment="Left" Margin="405,389,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="173" FontSize="16"/>
+        <Label Content="Food:" HorizontalAlignment="Left" Margin="405,424,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="100" FontSize="16"/>
+
+        <TextBox x:Name="Pool" HorizontalAlignment="Left" Height="23" Margin="583,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Jaccuzzi" HorizontalAlignment="Left" Height="23" Margin="583,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Porch" HorizontalAlignment="Left" Height="23" Margin="583,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="ChildrenAttractions" HorizontalAlignment="Left" Height="23" Margin="583,396,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="Food" HorizontalAlignment="Left" Height="23" Margin="583,431,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <!--<Button Content="Update" HorizontalAlignment="Left" Margin="287,482,0,0" VerticalAlignment="Top" Width="172" Click="UpdateOrder_Button_Click" FontFamily="MV Boli" FontSize="36" />-->
+        <Label Content="Status:" HorizontalAlignment="Left" Margin="252,461,0,0" VerticalAlignment="Top" Height="39" FontFamily="MV Boli" Width="100" FontSize="20" FontWeight="Bold"/>
+        <ComboBox x:Name="Status" HorizontalAlignment="Left" Margin="352,474,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding Status}"/>
+        <Label Content="Hosting Unit Key:" HorizontalAlignment="Left" Margin="212,144,0,0" VerticalAlignment="Top" Height="40" FontFamily="MV Boli" Width="156" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="HostingUnitKey" HorizontalAlignment="Left" Height="23" Margin="385,151,0,0" TextWrapping="Wrap" Text="{Binding HostingUnitKey}" VerticalAlignment="Top" Width="120" IsEnabled="False" FontWeight="Bold"/>
+        <Label Content="Guest Request Key:" HorizontalAlignment="Left" Margin="211,109,0,0" VerticalAlignment="Top" Height="35" FontFamily="MV Boli" Width="169" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="GuestRequestKey" HorizontalAlignment="Left" Height="23" Margin="385,115,0,0" TextWrapping="Wrap" Text="{Binding GuestRequestKey}" VerticalAlignment="Top" Width="120" IsEnabled="False" FontWeight="Bold"/>
+        <Label Content="Create Date:" HorizontalAlignment="Left" Margin="627,33,0,0" VerticalAlignment="Top" Height="30" FontFamily="MV Boli" Width="120" FontSize="16"/>
+        <DatePicker x:Name="CreateDate" HorizontalAlignment="Left" Margin="627,68,0,0" VerticalAlignment="Top" SelectedDate="{Binding Path=CreateDate}" DisplayDate="{Binding Path=EntryDate}" Width="120" IsEnabled="False"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="285,504,0,0" VerticalAlignment="Top" Width="164" Click="UpdateOrder_Button_Click" FontFamily="MV Boli" FontSize="36" Height="55"/>
+    </Grid>
+</Window>

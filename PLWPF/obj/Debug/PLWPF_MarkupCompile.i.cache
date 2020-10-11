@@ -1,0 +1,20 @@
+﻿PLWPF
+
+
+winexe
+C#
+.cs
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\PLWPF\obj\Debug\
+PLWPF
+none
+false
+DEBUG;TRACE
+Z:\פרוייקט סופי\Project01_0565_6133_dotNet5780\PLWPF\App.xaml
+221621290640
+
+30-356425750
+17426616418
+AddGuestRequest.xaml;AddHost.xaml;AddHostingUnit.xaml;AddOrder.xaml;DeleteHostingUnit.xaml;GetGuestRequestsByNumOfPeople.xaml;HostLogin.xaml;HostsByNumOfHostingUnits.xaml;Guest.xaml;GuestRequestsByArea.xaml;Host.xaml;HostingUnit.xaml;HostingUnitByArea.xaml;MainWindow.xaml;Manager.xaml;managerLogin.xaml;Order.xaml;Search.xaml;UpdateGuestRequest.xaml;UpdateHost.xaml;UpdateHostingUnit.xaml;UpdateOrder.xaml;
+
+True
+

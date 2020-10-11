@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ArrayOfHost xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Host>
+    <HostKey>316599240</HostKey>
+    <FirstName>Shlomo</FirstName>
+    <LastName>Edri</LastName>
+    <PhoneNumber>0556668980</PhoneNumber>
+    <Email>lib6130@gmail.com</Email>
+    <BankBranchDetails>
+      <BankNumber>11</BankNumber>
+      <BankName>Israel Discount Bank Ltd</BankName>
+      <BranchNumber>188</BranchNumber>
+      <BranchAddress>RISHON LEZIYYON</BranchAddress>
+      <BranchCity>RISHON LEZIYYON</BranchCity>
+    </BankBranchDetails>
+    <BankAccountNumber>1357</BankAccountNumber>
+    <CollectionClearance>true</CollectionClearance>
+    <NumOfHostingUnits>2</NumOfHostingUnits>
+    <HostPassword>1001</HostPassword>
+  </Host>
+  <Host>
+    <HostKey>209146133</HostKey>
+    <FirstName>Li</FirstName>
+    <LastName>Edri</LastName>
+    <PhoneNumber>0503680202</PhoneNumber>
+    <Email>lib6130@gmail.com</Email>
+    <BankBranchDetails>
+      <BankNumber>11</BankNumber>
+      <BankName>Israel Discount Bank Ltd</BankName>
+      <BranchNumber>515</BranchNumber>
+      <BranchAddress>TEL AVIV - YAFO</BranchAddress>
+      <BranchCity>TEL AVIV - YAFO</BranchCity>
+    </BankBranchDetails>
+    <BankAccountNumber>1234</BankAccountNumber>
+    <CollectionClearance>true</CollectionClearance>
+    <NumOfHostingUnits>3</NumOfHostingUnits>
+    <HostPassword>1000</HostPassword>
+  </Host>
+</ArrayOfHost>

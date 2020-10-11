@@ -1,0 +1,58 @@
+﻿<Window x:Class="PLWPF.UpdateGuestRequest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="UpdateGuestRequest" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="style"
+               TargetType="Label">
+            <Setter Property="FontSize"
+                    Value="16"/>
+            <Setter Property="FontFamily"
+                Value="MV Boli"/>
+            <Setter Property="FontWeight"
+                    Value="Normal"/>
+            <Setter Property="Height"
+                    Value="30"/>
+            <Setter Property="Width"
+                    Value="100"/>
+        </Style>
+    </Window.Resources>
+    <Grid Name="UpdateGuestRequestGrid">
+        <Label Content="Update Guest Request:" HorizontalAlignment="Left" Margin="215,0,0,0" VerticalAlignment="Top" Height="53" FontFamily="MV Boli" Width="297" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Guest Request Key:" HorizontalAlignment="Left" Margin="230,39,0,0" VerticalAlignment="Top" Style="{StaticResource style}" Width="122" FontWeight="Bold"/>
+        <ComboBox x:Name="Type"  HorizontalAlignment="Left" Margin="202,310,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding HostingUnitType}"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="23" Margin="202,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding FirstName}"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="82,87,0,0" VerticalAlignment="Top" Style="{StaticResource style}"/>
+        <TextBox x:Name="LastName"  HorizontalAlignment="Left" Height="23" Margin="203,129,0,0" TextWrapping="Wrap" Text="{Binding LastName}" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Last Name:" HorizontalAlignment="Left" Margin="82,122,0,0" VerticalAlignment="Top" Style="{StaticResource style}"/>
+        <TextBox x:Name="Email" HorizontalAlignment="Left" Height="23" Margin="202,162,0,0" TextWrapping="Wrap" Text="{Binding Email}" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="83,155,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Entry Date:" HorizontalAlignment="Left" Margin="82,189,0,0" VerticalAlignment="Top" Style="{StaticResource style}"/>
+        <DatePicker x:Name="EntryDate" HorizontalAlignment="Left" Margin="202,195,0,0" VerticalAlignment="Top" Width="120" SelectedDate="{Binding EntryDate}"/>
+        <Label Content="Release Date:" HorizontalAlignment="Left" Margin="83,227,0,0" VerticalAlignment="Top"  Style="{StaticResource style}" Width="114"/>
+        <DatePicker x:Name="ReleaseDate"  HorizontalAlignment="Left" Margin="202,233,0,0" VerticalAlignment="Top" Width="120" SelectedDate="{Binding ReleaseDate}"/>
+        <Label Content="Area:" HorizontalAlignment="Left" Margin="87,265,0,0" VerticalAlignment="Top" Style="{StaticResource style}"/>
+        <ComboBox x:Name="Area" HorizontalAlignment="Left" Margin="202,273,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding Area}"/>
+        <Label Content="Type:" HorizontalAlignment="Left" Margin="87,303,0,0" VerticalAlignment="Top" Style="{StaticResource style}"/>
+        <ComboBox x:Name="GuestRequestKey" HorizontalAlignment="Left" Margin="357,47,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding GuestRequestKey}" SelectionChanged="GuestRequestKey_SelectionChanged"/>
+        <TextBox x:Name="NumOfAdults" HorizontalAlignment="Left" Height="23" Margin="603,85,0,0" TextWrapping="Wrap" Text="{Binding NumOfAdults}" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Num Of Adults:" HorizontalAlignment="Left" Margin="406,78,0,0" VerticalAlignment="Top" Style="{StaticResource style}" Width="137"/>
+        <TextBox x:Name="NumOfKids" HorizontalAlignment="Left" Height="23" Margin="603,120,0,0" TextWrapping="Wrap" Text="{Binding NumOfKids}" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Num Of Kids:" HorizontalAlignment="Left" Margin="406,113,0,0" VerticalAlignment="Top" Style="{StaticResource style}" Width="137"/>
+        <Label Content="Pool:" HorizontalAlignment="Left" Margin="406,189,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Porch:" HorizontalAlignment="Left" Margin="406,227,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Jacuzzi:" HorizontalAlignment="Left" Margin="406,146,0,0" VerticalAlignment="Top"  Style="{StaticResource style}"/>
+        <Label Content="Children Attractions:" HorizontalAlignment="Left" Margin="406,265,0,0" VerticalAlignment="Top" Style="{StaticResource style}" Width="175"/>
+        <Label Content="Food:" HorizontalAlignment="Left" Margin="406,310,0,0" VerticalAlignment="Top"  Style="{StaticResource style}" />
+        <ComboBox x:Name="Food" HorizontalAlignment="Left" Margin="603,311,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding Food}"/>
+        <ComboBox x:Name="ChildrenAttractions" HorizontalAlignment="Left" Margin="603,273,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding ChildrenAttractions}"/>
+        <ComboBox x:Name="Porch" HorizontalAlignment="Left" Margin="603,235,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding Porch}"/>
+        <ComboBox x:Name="Pool" HorizontalAlignment="Left" Margin="603,197,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding Pool}"/>
+        <ComboBox x:Name="Jaccuzzi" HorizontalAlignment="Left" Margin="603,154,0,0" VerticalAlignment="Top" Width="120" SelectedItem="{Binding Jaccuzzi}"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="290,354,0,0" VerticalAlignment="Top" Width="164" Click="UpdateGuestRequest_Button_Click" FontFamily="MV Boli" FontSize="36" Height="55"/>
+    </Grid>
+</Window>

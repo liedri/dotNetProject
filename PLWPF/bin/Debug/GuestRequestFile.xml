@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<guestRequest>
+  <guestRequest>
+    <key>10000000</key>
+    <firstName>michal</firstName>
+    <lastName>edry</lastName>
+    <email>lib6130@gmail.com</email>
+    <requirementStatus>Open</requirementStatus>
+    <registrationDate>0001-01-01T00:00:00</registrationDate>
+    <entryDate>2020-02-04T00:00:00</entryDate>
+    <releaseDate>2020-02-08T00:00:00</releaseDate>
+    <area>All</area>
+    <type>Hotel</type>
+    <numOfAdults>2</numOfAdults>
+    <numOfKids>0</numOfKids>
+    <pool>Necessary</pool>
+    <jacuzzi>Necessary</jacuzzi>
+    <childrenAttractions>Optional</childrenAttractions>
+    <porch>Optional</porch>
+    <food>Breakfast</food>
+    <numOfTotalPeople>2</numOfTotalPeople>
+  </guestRequest>
+  <guestRequest>
+    <key>10000001</key>
+    <firstName>betty</firstName>
+    <lastName>bokris</lastName>
+    <email>lib6130@gmail.com</email>
+    <requirementStatus>DealMade</requirementStatus>
+    <registrationDate>01/01/0001 00:00:00</registrationDate>
+    <entryDate>11/02/2020 00:00:00</entryDate>
+    <releaseDate>15/02/2020 00:00:00</releaseDate>
+    <area>All</area>
+    <type>Hotel</type>
+    <numOfAdults>2</numOfAdults>
+    <numOfKids>0</numOfKids>
+    <pool>Necessary</pool>
+    <jacuzzi>Necessary</jacuzzi>
+    <childrenAttractions>Optional</childrenAttractions>
+    <porch>Optional</porch>
+    <food>All</food>
+    <numOfTotalPeople>2</numOfTotalPeople>
+  </guestRequest>
+  <guestRequest>
+    <key>10000002</key>
+    <firstName>betty</firstName>
+    <lastName>bokris</lastName>
+    <email>lib6130@gmail.com</email>
+    <requirementStatus>Open</requirementStatus>
+    <registrationDate>0001-01-01T00:00:00</registrationDate>
+    <entryDate>2020-02-11T00:00:00</entryDate>
+    <releaseDate>2020-02-15T00:00:00</releaseDate>
+    <area>All</area>
+    <type>Hotel</type>
+    <numOfAdults>2</numOfAdults>
+    <numOfKids>0</numOfKids>
+    <pool>Necessary</pool>
+    <jacuzzi>Necessary</jacuzzi>
+    <childrenAttractions>Optional</childrenAttractions>
+    <porch>Optional</porch>
+    <food>Breakfast</food>
+    <numOfTotalPeople>2</numOfTotalPeople>
+  </guestRequest>
+</guestRequest>

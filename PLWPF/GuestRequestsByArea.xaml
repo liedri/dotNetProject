@@ -1,0 +1,43 @@
+﻿<Window x:Class="PLWPF.GuestRequestsByArea"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="GuestRequestsByArea" Height="600" Width="1000">
+    <Grid>
+        <ListView Name="GuestRequestsByArea_Grouping">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Key" DisplayMemberBinding="{Binding GuestRequestKey}"/>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding FirstName}"/>
+                    <GridViewColumn Header="Last Name" DisplayMemberBinding="{Binding LastName}"/>
+                    <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}"/>
+                    <GridViewColumn Header="Requirement Status" DisplayMemberBinding="{Binding RequirementStatus}"/>
+                    <GridViewColumn Header="Registration Date" DisplayMemberBinding="{Binding RegistrationDate}"/>
+                    <GridViewColumn Header="Entry Date" DisplayMemberBinding="{Binding EntryDate}"/>
+                    <GridViewColumn Header="Release Date" DisplayMemberBinding="{Binding ReleaseDate}"/>
+                    <GridViewColumn Header="Area" DisplayMemberBinding="{Binding Area}"/>
+                    <GridViewColumn Header="Hosting Unit Type" DisplayMemberBinding="{Binding HostingUnitType}"/>
+                    <GridViewColumn Header="Num Of Adults" DisplayMemberBinding="{Binding NumOfAdults}"/>
+                    <GridViewColumn Header="Num Of Kids" DisplayMemberBinding="{Binding NumOfKids}"/>
+                    <GridViewColumn Header="Pool" DisplayMemberBinding="{Binding Pool}"/>
+                    <GridViewColumn Header="Jacuzzi" DisplayMemberBinding="{Binding Jacuzzi}"/>
+                    <GridViewColumn Header="Porch" DisplayMemberBinding="{Binding Porch}"/>
+                    <GridViewColumn Header="Children Attractions" DisplayMemberBinding="{Binding ChildrenAttractions}"/>
+                    <GridViewColumn Header="Food" DisplayMemberBinding="{Binding Food}"/>
+                </GridView>
+            </ListView.View>
+            <ListView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock FontWeight="Black" FontSize="14" FontFamily="MV Boli" Text="{Binding Name}"/>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListView.GroupStyle>
+        </ListView>
+    </Grid>
+</Window>

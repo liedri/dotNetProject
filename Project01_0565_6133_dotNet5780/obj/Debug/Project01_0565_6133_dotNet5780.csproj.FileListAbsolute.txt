@@ -1,0 +1,70 @@
+Z:\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe.config
+Z:\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe
+Z:\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.pdb
+Z:\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csproj.CoreCompileInputs.cache
+Z:\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.exe
+Z:\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe.config
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csprojAssemblyReference.cache
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csproj.CoreCompileInputs.cache
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.exe
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignColors.dll
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignColors.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\לי בוקריס\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csproj.CopyComplete
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe.config
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.pdb
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignColors.dll
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignColors.pdb
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csproj.CoreCompileInputs.cache
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csproj.CopyComplete
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.exe
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.pdb
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe.config
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.pdb
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignColors.dll
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignColors.pdb
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csprojAssemblyReference.cache
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csproj.CopyComplete
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.exe
+C:\Users\micha\Desktop\פרוייקט\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.pdb
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe.config
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.pdb
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignColors.dll
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.dll
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignColors.pdb
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.pdb
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.xml
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csprojAssemblyReference.cache
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csproj.CoreCompileInputs.cache
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csproj.CopyComplete
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.exe
+Z:\שנה ב סמסטר א\מיני פרוייקט\part3\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.pdb
+C:\Users\לי בוקריס\Downloads\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csprojAssemblyReference.cache
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe.config
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.exe
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\Project01_0565_6133_dotNet5780.pdb
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignColors.dll
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignColors.pdb
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.csproj.CopyComplete
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.exe
+C:\Users\micha\Desktop\Project01_0565_6133_dotNet5780\Project01_0565_6133_dotNet5780\obj\Debug\Project01_0565_6133_dotNet5780.pdb

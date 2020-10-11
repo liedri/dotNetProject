@@ -1,0 +1,116 @@
+﻿<Window x:Class="PLWPF.Manager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="Manager" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="style"
+               TargetType="Label">
+        <Setter Property="FontSize"
+                    Value="16"/>
+        <Setter Property="FontFamily"
+                Value="MV Boli"/>
+        <Setter Property="FontWeight"
+                    Value="Normal"/>
+        <Setter Property="Height"
+                    Value="30"/>
+        <Setter Property="Width"
+                    Value="100"/>
+    </Style>
+    </Window.Resources>
+    <Grid>
+        <TabControl>
+            <TabItem Header="Guest Requests">
+                <ListView Name="GuestRequests">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Key" DisplayMemberBinding="{Binding GuestRequestKey}"/>
+                            <GridViewColumn Header="Name" DisplayMemberBinding="{Binding FirstName}"/>
+                            <GridViewColumn Header="Last Name" DisplayMemberBinding="{Binding LastName}"/>
+                            <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}"/>
+                            <GridViewColumn Header="Requirement Status" DisplayMemberBinding="{Binding RequirementStatus}"/>
+                            <GridViewColumn Header="Registration Date" DisplayMemberBinding="{Binding RegistrationDate}"/>
+                            <GridViewColumn Header="Entry Date" DisplayMemberBinding="{Binding EntryDate}"/>
+                            <GridViewColumn Header="Release Date" DisplayMemberBinding="{Binding ReleaseDate}"/>
+                            <GridViewColumn Header="Area" DisplayMemberBinding="{Binding Area}"/>
+                            <GridViewColumn Header="Hosting Unit Type" DisplayMemberBinding="{Binding HostingUnitType}"/>
+                            <GridViewColumn Header="Num Of Adults" DisplayMemberBinding="{Binding NumOfAdults}"/>
+                            <GridViewColumn Header="Num Of Kids" DisplayMemberBinding="{Binding NumOfKids}"/>
+                            <GridViewColumn Header="Pool" DisplayMemberBinding="{Binding Pool}"/>
+                            <GridViewColumn Header="Jacuzzi" DisplayMemberBinding="{Binding Jacuzzi}"/>
+                            <GridViewColumn Header="Porch" DisplayMemberBinding="{Binding Porch}"/>
+                            <GridViewColumn Header="Children Attractions" DisplayMemberBinding="{Binding ChildrenAttractions}"/>
+                            <GridViewColumn Header="Food" DisplayMemberBinding="{Binding Food}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Hosts">
+                <ListView Name="Hosts">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Key" DisplayMemberBinding="{Binding HostKey}"/>
+                            <GridViewColumn Header="Name" DisplayMemberBinding="{Binding FirstName}"/>
+                            <GridViewColumn Header="Last Name" DisplayMemberBinding="{Binding LastName}"/>
+                            <GridViewColumn Header="Phone Number" DisplayMemberBinding="{Binding PhoneNumber}"/>
+                            <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}"/>
+                            <GridViewColumn Header="Bank Account Number" DisplayMemberBinding="{Binding BankAccountNumber}"/>
+                            <GridViewColumn Header="Collection Clearance" DisplayMemberBinding="{Binding CollectionClearance}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Hosting Units">
+                <ListView Name="HostingUnits">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Key" DisplayMemberBinding="{Binding HostingUnitKey}"/>
+                            <GridViewColumn Header="Name" DisplayMemberBinding="{Binding HostingUnitName}"/>
+                            <GridViewColumn Header="Owner Key" DisplayMemberBinding="{Binding Owner.HostKey}"/>
+                            <GridViewColumn Header="Host Name" DisplayMemberBinding="{Binding Owner.FirstName}"/>
+                            <GridViewColumn Header="Area" DisplayMemberBinding="{Binding Area}"/>
+                            <GridViewColumn Header="Hosting Unit Type" DisplayMemberBinding="{Binding HostingUnitType}"/>
+                            <GridViewColumn Header="Pool" DisplayMemberBinding="{Binding Pool}"/>
+                            <GridViewColumn Header="Jacuzzi" DisplayMemberBinding="{Binding Jacuzzi}"/>
+                            <GridViewColumn Header="Porch" DisplayMemberBinding="{Binding Porch}"/>
+                            <GridViewColumn Header="Children Attractions" DisplayMemberBinding="{Binding ChildrenAttractions}"/>
+                            <GridViewColumn Header="Food" DisplayMemberBinding="{Binding Food}"/>
+                            <GridViewColumn Header="Beds" DisplayMemberBinding="{Binding Beds}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Orders">
+                <ListView Name="Orders">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Key" DisplayMemberBinding="{Binding OrderKey}"/>
+                            <GridViewColumn Header="Guest Request Key" DisplayMemberBinding="{Binding GuestRequestKey}"/>
+                            <GridViewColumn Header="Hosting Unit Key" DisplayMemberBinding="{Binding HostingUnitKey}"/>
+                            <GridViewColumn Header="Order Status" DisplayMemberBinding="{Binding Status}"/>
+                            <GridViewColumn Header="Create Date" DisplayMemberBinding="{Binding CreateDate}"/>
+                            <GridViewColumn Header="Order Date" DisplayMemberBinding="{Binding OrderDate}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Commissions">
+                <Grid Margin="1,20,6,5">
+                    <Button x:Name="Commissions"  Content="Press to show your commission" HorizontalAlignment="Left" Margin="216,81,0,0" VerticalAlignment="Top" Width="320" Click="Commissions_Click" Height="57" FontFamily="MV Boli"  FontSize="20"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Search">
+                <Grid>
+                    <Button x:Name ="GuestRequestByArea"  Content="Guest Request By Area" HorizontalAlignment="Left" Margin="33,50,0,0" VerticalAlignment="Top" Width="673" FontFamily="MV Boli" FontSize="40" Height="70" Click="GuestRequestByArea_Click" />
+                    <Button x:Name ="GuestRequestByNumOfGuests"  Content="Guest Request By Num Of Guests" HorizontalAlignment="Left" Margin="33,139,0,0" VerticalAlignment="Top" Width="673" FontFamily="MV Boli" FontSize="40" Height="70" Click="GuestRequestByNumOfGuests_Click" />
+                    <Button x:Name ="HostsByNumOfHostingUnits"  Content="Hosts By Num Of Hosting Units" HorizontalAlignment="Left" Margin="33,226,0,0" VerticalAlignment="Top" Width="673" FontFamily="MV Boli" FontSize="40" Height="70" Click="HostsByNumOfHostingUnits_Click" />
+                    <Button x:Name ="HostingUnitsByArea"  Content="Hosting Units By Area" HorizontalAlignment="Left" Margin="33,315,0,0" VerticalAlignment="Top" Width="673" FontFamily="MV Boli" FontSize="40" Height="70" Click="HostingUnitsByArea_Click" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

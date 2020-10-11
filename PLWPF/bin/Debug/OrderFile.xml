@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<order>
+  <order>
+    <key>10000000</key>
+    <hostingUnitKey>10000001</hostingUnitKey>
+    <guestRequestKey>10000001</guestRequestKey>
+    <status>CloseByClient</status>
+    <createDate>01/01/0001 00:00:00</createDate>
+    <orderDate>01/01/0001 00:00:00</orderDate>
+  </order>
+  <order>
+    <key>10000001</key>
+    <hostingUnitKey>10000004</hostingUnitKey>
+    <guestRequestKey>10000001</guestRequestKey>
+    <status>NotYetAddressed</status>
+    <createDate>2020-02-04T00:00:00+02:00</createDate>
+    <orderDate>2020-02-04T00:00:00+02:00</orderDate>
+  </order>
+</order>
